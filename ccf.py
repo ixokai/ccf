@@ -33,7 +33,7 @@ connection = mongodb+srv://{database[username]}:{database[password}@myservice.mo
 ```
 
 secrets.conf
-```
+```ini
 [database]
 username = foo
 password = bar
