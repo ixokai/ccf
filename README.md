@@ -10,12 +10,12 @@ so gave up.
 So we have this.
 
 The design goals are twofold:
-    1) Python 3 only
-    2) INI-ish, for ease of use by the non-technicals
-    3) 'Cascading' configuration files, thus the name; so if file 1 has [database] username=foo, but file 2 has
+1. Python 3 only
+2. INI-ish, for ease of use by the non-technicals
+3. 'Cascading' configuration files, thus the name; so if file 1 has [database] username=foo, but file 2 has
        [database] username=bar, then reading cfg.database.username would return 'bar'. The system is designed for
        situations where you read multiple files and where later ones override defaults in earlier ones.
-    4) To use Python 3-style 'str.format()' interpolation, because I use it elsewhere in my app and I want users to
+4. To use Python 3-style 'str.format()' interpolation, because I use it elsewhere in my app and I want users to
        need to learn only one interpolation language.
 
 This is a VERY SIMPLE LIBRARY that I threw together, and may be of no interest to anyone else, ever. I intend on
