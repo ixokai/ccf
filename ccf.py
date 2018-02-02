@@ -29,7 +29,7 @@ Example usage:
 myapp.conf
 ```ini
 [database]
-connection = mongodb+srv://{database[username]}:{database[password}@myservice.mongodb.net/test
+connection = mongodb+srv://{database[username]}:{database[password]}@myservice.mongodb.net/test
 ```
 
 secrets.conf
